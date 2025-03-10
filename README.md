@@ -1,1 +1,2 @@
-# ISS
+# Iterative Soft-Margin Selection (ISS) for Delisting Risk Prediction (DRP)
+This repository contains the implementation of the Iterative Soft-Margin Selection (ISS) framework, a novel under-sampling technique designed for Delisting Risk Prediction (DRP) in Chinese listed companies. The ISS method addresses the class-imbalance problem in financial datasets by iteratively selecting representative samples from normal companies using a soft-margin selection rule combined with inter-group under-sampling (IUS). This approach constructs a balanced dataset that enables base learners to focus on potential delisting risks while maintaining a robust precision-recall tradeoff.
